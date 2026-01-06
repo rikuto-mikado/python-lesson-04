@@ -1,5 +1,17 @@
 # Python Lesson 04
 
+## What I Learned
+
+-
+-
+-
+
+## Challenges
+
+-
+-
+-
+
 ## Memo: Django Development Environment Setup
 
 ### Prerequisites
@@ -29,22 +41,6 @@ python manage.py startapp restaurant_menu
 - `django-admin startproject mysite` - Creates project in new `mysite/` subdirectory
 - `python manage.py startapp <app_name>` - Creates a new app within the project
 
-### Project Structure
-```
-python-lesson-04/
-├── manage.py              # Django management script
-├── mysite/                # Project configuration
-│   ├── __init__.py
-│   ├── settings.py        # Project settings
-│   ├── urls.py            # URL routing
-│   └── wsgi.py
-└── restaurant_menu/       # App directory
-    ├── models.py          # Database models
-    ├── views.py           # View logic
-    ├── urls.py            # App-specific URLs
-    └── migrations/        # Database migrations
-```
-
 ### Common Commands
 
 ```bash
@@ -60,15 +56,3 @@ python manage.py migrate
 # Create superuser
 python manage.py createsuperuser
 ```
-
-### Package Management
-
-```bash
-# Save installed packages
-pip freeze > requirements.txt
-
-# Install from requirements
-pip install -r requirements.txt
-```
-
-**Note:** Always work within the virtual environment to avoid conflicts with global packages.
